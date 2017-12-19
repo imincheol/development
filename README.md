@@ -23,6 +23,10 @@ http://d2.naver.com/helloworld/4966453
 
 ### Redux 
 
+A cartoon guide to Flux 
+- ENG : https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207
+- KOR : http://bestalign.github.io/2015/10/06/cartoon-guide-to-flux/
+
 A cortoon into to Redux
 - ENG : https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6
 - KOR : http://bestalign.github.io/2015/10/26/cartoon-intro-to-redux/
