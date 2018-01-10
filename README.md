@@ -1,5 +1,11 @@
 # FrontEnd 
 
+## Node.js
+
+PM2 - Advanced, production process manager for Node.js
+- http://pm2.keymetrics.io/
+
+
 ## JQeury 
 
 JQuery 명강의 - TutsPlus - 30 Days to Learn jQuery (ENG) 
@@ -21,7 +27,19 @@ Vue Simple Pwa
 Naver - React 적용 가이드 - 네이버 모바일 웹 적용기 
 http://d2.naver.com/helloworld/4966453
 
+React 적용 가이드 - React 작동 방법
+http://d2.naver.com/helloworld/9297403
+
+React 적용 가이드 - React와 Redux
+http://d2.naver.com/helloworld/1848131
+
+
+React.js 강좌 목록 
+- https://velopert.com/reactjs-tutorials
+
 ### Redux 
+
+https://deminoth.github.io/redux/
 
 A cartoon guide to Flux 
 - ENG : https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207
