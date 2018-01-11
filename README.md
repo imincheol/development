@@ -1,5 +1,16 @@
 # FrontEnd 
 
+## Security
+
+CORS 
+- https://developer.mozilla.org/ko/docs/Web/HTTP/Access_control_CORS
+
+## Javascript
+
+(ENG) JavaScript Map vs. ForEach
+- https://codeburst.io/javascript-map-vs-foreach-f38111822c0f
+
+
 ## Node.js
 
 PM2 - Advanced, production process manager for Node.js
@@ -48,9 +59,4 @@ A cartoon guide to Flux
 A cortoon into to Redux
 - ENG : https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6
 - KOR : http://bestalign.github.io/2015/10/26/cartoon-intro-to-redux/
-
-## Article
-
-(ENG) JavaScript Map vs. ForEach
-- https://codeburst.io/javascript-map-vs-foreach-f38111822c0f
 
