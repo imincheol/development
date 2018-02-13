@@ -39,12 +39,6 @@ Developer Tutorial
   - How 어떻게
   
 - PAR Rule
-  - Position 
-    - Where 어디서 
-    - When 언제 
-  - Action 
-    - What 무엇을 
-    - How 어떻게 
-  - Reason 
-    - Who 누가 
-    - Why 왜 
+  - Position : When & Where 언제, 어디서
+  - Action : What & How 무엇을, 어떻게 
+  - Reason : Who & Why 누가, 왜 
