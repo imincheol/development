@@ -96,7 +96,7 @@ fill( value, startIndex, endIndex )
 - 수행 : 원본 배열을 value 값으로 채워넣는다.
 - 인자 : startIndex 이상 endIndex 미만까지 변경한다. 없을 경우 모든 요소를 변경한다. 
 -  return : 원본 배열 Source Array
-```
+```js
 var aa = ["a", "b", "c", "", 0, 1, 2, 3];
 var bb = aa.fill( "xx", 2, 5 );
 
@@ -110,7 +110,7 @@ bb // (8) ["a", "b", "xx", "xx", "xx", 1, 2, 3]
 map( fn_v , thisValue ) 
 -  수행 : 배열의 각 요소를 돌면서 함수 fn 을 수행하여 return 되는 결과들의 모음을 새로운 배열로 반환한다 
 -  return : 새로운 배열 New Array
-```
+```js
 var aa = ["a", "b", "c", "", 0, 1, 2, 3];
 var bb = aa.map( currentValue => { return currentValue + 9 });
 
@@ -122,7 +122,7 @@ bb // (8) ["a9", "b9", "c9", "9", 9, 10, 11, 12]
 filter(fn_tf, thisValue) 
 - 수행 : 배열의 각 요소를 돌면서 함수 fn_tf 의 결과가 true 인 배열을 모아 반환한다 
 - return : 새로운 배열 New Array
-```
+```js
 var aa = ["a", "b", "c", "", 0, 1, 2, 3];
 var bb = aa.filter( currentValue => { return typeof currentValue == "string" });
 
@@ -138,7 +138,7 @@ every( fn_tf, thisValue )
   따라서 forEach로는 구현하지 못하는 continue(true) 또는 break(false)를 사용한 것처럼 사용이 가능하다 
 -  수행 : 모든 배열의 요소에 대하여 함수 fn_tf  의 결과가 모두 true 이면 true 값을 반환한다 
 -  return : Boolean 
-```
+```js
 var aa = ["a", "b", "c", "", 0, 1, 2, 3];
 var bb = aa.every( currentValue => { return typeof currentValue == "string" });
 
@@ -151,7 +151,7 @@ find( fn_tf, thisValue )
 -  수행 : 함수 fn 의 결과가 true가 나오는 첫번째 요소의 value 반환
 -  의미 : 배열에서 조건에 맞는 요소의 값을 찾으려고 할때 사용 
 -  return : Value
-```
+```js
 var aa = ["a", "b", "c", "", 0, 1, 2, 3];
 var bb = aa.find( currentValue => { return typeof currentValue != "string" });
 
@@ -164,7 +164,7 @@ findIndex( fn_tf, thisValue )
 -  수행 : 함수 fn 의 결과가 true가 나오는 첫번째 요소의 index 반환
 -  의미 : f배열에서 조건에 맞는 요소의 인덱스를 찾으려고 할때 사용 
 -  return : index
-```
+```js
 var aa = ["a", "b", "c", "", 0, 1, 2, 3];
 var bb = aa.findIndex( currentValue => { return typeof currentValue != "string" });
 
