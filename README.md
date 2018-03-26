@@ -1,14 +1,24 @@
 # FrontEnd 
 
-## Security
+
+
+
+## Javascript
+
+### ES Basic
+(ENG) JavaScript Map vs. ForEach
+- https://codeburst.io/javascript-map-vs-foreach-f38111822c0f
+
+### ES6
+
+ES6 문법 정리 
+https://jsdev.kr/t/es6/2944
+
+### Security
 
 CORS 
 - https://developer.mozilla.org/ko/docs/Web/HTTP/Access_control_CORS
 
-## Javascript
-
-(ENG) JavaScript Map vs. ForEach
-- https://codeburst.io/javascript-map-vs-foreach-f38111822c0f
 
 
 ## Node.js
@@ -17,10 +27,13 @@ PM2 - Advanced, production process manager for Node.js
 - http://pm2.keymetrics.io/
 
 
+
 ## JQeury 
 
 JQuery 명강의 - TutsPlus - 30 Days to Learn jQuery (ENG) 
 - https://www.youtube.com/channel/UCRn4AYl6LuD8U98OICiDbqQ/videos
+
+
 
 ## Vue.js
 
@@ -29,6 +42,8 @@ Vue Starter
 
 Vue Simple Pwa
 - https://github.com/BosNaufal/vue-simple-pwa
+
+
 
 ## React 
 
@@ -48,6 +63,9 @@ http://d2.naver.com/helloworld/1848131
 React.js 강좌 목록 
 - https://velopert.com/reactjs-tutorials
 
+ReactJS를 작성할 때에 알아두면 좋은 ES6 문법들
+- https://gomugom.github.io/es6-for-react/
+
 ### Redux 
 
 https://deminoth.github.io/redux/
@@ -60,6 +78,22 @@ A cortoon into to Redux
 - ENG : https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6
 - KOR : http://bestalign.github.io/2015/10/26/cartoon-intro-to-redux/
 
+
+
+
+
+# BackEnd
+
+## Python 
+
+왕초보를 위한 Python 2.7
+- https://wikidocs.net/book/2
+
+
+
+
+
+# Others
 
 ## BlockChain 
 
