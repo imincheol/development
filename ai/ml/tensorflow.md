@@ -22,15 +22,22 @@ $ source ./bin/activate
 
 ## 3 Check tensorflwo 
 
+- python4 
+- tensorflow
+
 ```
 $ python3 
->>> imnport tensorflwo as tf 
+>>> import tensorflow as tf 
 >>> tf.__version__
-$
-```
 '1.8.0'
+```
+
 
 ## 4 Hello world 
+
+- tf.constant
+- tf.Session
+
 ```
 >>> hello = tf.constant("Hello, TensorFlow!")
 >>> sess = tf.Session()
@@ -38,6 +45,11 @@ $
 b'Hello, TensorFlow!'
 
 ## 5 Computational Graph 
+
+- tf.add
+- print 
+- sess.run
+
 ```
 >>> node1 = tf.constant(3.0, tf.float32)
 >>> node2 = tf.constant(4.0)
@@ -58,6 +70,10 @@ sess.run(node3):  7.0
 ```
 
 ## 6 Placeholder
+
+- tf.placeholder
+- sess.run(op, feed_dict={x: data})
+
 ```
 >>> a = tf.placeholder(tf.float32)
 >>> b = tf.placeholder(tf.float32)
@@ -70,3 +86,21 @@ sess.run(node3):  7.0
 [3. 7.]
 ```
 
+## 7 Tensor
+
+Everything is Tensor 
+
+- Tensor
+  - Ranks 
+  - Shapes 
+  - Types 
+ 
+- Rank 
+
+| Rank | Math entity           | Python example  |
+| ---- |:-------------------------------:| -----:|
+| 0    | Scalar (magnitude only)         | s = 486 |
+| 1    | Vector (magnitude and direction)| v = [1.0, 2.1, 3.2] |
+| 2    | Matrix (table of numbers)       | m = [[1,2,3], [4,5,6], [7,8,9]] |
+| 3    | 3-Tensor (cube of numbers)      | t = [[[2], [4], [6]], [[1],[3],[5]], [[3],[8],[9]]]  |
+| n    | n-Tensor                        | .... |
