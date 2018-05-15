@@ -98,7 +98,7 @@ Everything is Tensor
 - Rank 
 
 | Rank | Math entity           | Python example  |
-| ---- |:-------------------------------:| -----:|
+| :--: |-------------------------------| -----|
 | 0    | Scalar (magnitude only)         | s = 486 |
 | 1    | Vector (magnitude and direction)| v = [1.0, 2.1, 3.2] |
 | 2    | Matrix (table of numbers)       | m = [[1,2,3], [4,5,6], [7,8,9]] |
@@ -108,7 +108,7 @@ Everything is Tensor
 - Shape
 
 | Rank | Shape               | Demension number |
-| ---- |:-------------------:| ----------------:|
+| :--: |:-------------------:| :----------------:|
 | 0    | []                  | 0-D              |
 | 1    | [D0]                | 1-D              |
 | 2    | [D0, D1]            | 2-D              |
