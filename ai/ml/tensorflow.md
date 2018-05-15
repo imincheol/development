@@ -104,3 +104,19 @@ Everything is Tensor
 | 2    | Matrix (table of numbers)       | m = [[1,2,3], [4,5,6], [7,8,9]] |
 | 3    | 3-Tensor (cube of numbers)      | t = [[[2], [4], [6]], [[1],[3],[5]], [[3],[8],[9]]]  |
 | n    | n-Tensor                        | .... |
+
+- Shape
+
+| Rank | Shape               | Demension number |
+| ---- |:-------------------:| ----------------:|
+| 0    | []                  | 0-D              |
+| 1    | [D0]                | 1-D              |
+| 2    | [D0, D1]            | 2-D              |
+| 3    | [D0, D1, D2]        | 3-D              |
+| n    | [D0, D1, ..., Dn-1] | n-D              |
+
+- Types 
+  - tf.float32
+  - tf.int32
+
+
