@@ -20,4 +20,19 @@ $ source ./bin/activate
 
 ```
 
-Done ! 
+#3 Check tensorflwo 
+
+```
+$ python3 
+>>> imnport tensorflwo as tf 
+>>> tf.__version__
+$
+```
+'1.8.0'
+
+#4 Hello world 
+```
+>>> hello = tf.constant("Hello, TensorFlow!")
+>>> sess = tf.Session()
+```
+b'Hello, TensorFlow!'
