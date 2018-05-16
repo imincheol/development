@@ -140,14 +140,7 @@ $ source ./bin/activate
 
 ```
 
-## Placeholders 
-
-```
-X = tf.placeholder(tf.float32)
-Y = tf.placeholder(tf.float32)
-
-for step in range(2001):
-    cost_val, W_val, b_val, _ = sess.run([cost, W, b, train], feed_dict={X: [1, 2, 3], Y: [1, 2, 3]})
-    if step % 20 == 0:
-        print(step, cost_val, W_val, b_val)
-```
+학습시킬때 shpae
+feed_dict 로 값을 주잖아요? 
+그때 shape 가 결정되는데 
+placeholder 를 쓸려면 그 shape 도 정의를 해둬야하더라고요 
