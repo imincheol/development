@@ -59,6 +59,7 @@ hypothesis = tf.matmul(X, W) + b
 * Placeholder 
   * X = tf.plcaeholder(tf.float32, shape=[None, 3])
   * Y = tf.plcaeholder(tf.float32, shape=[None, 1])
+  * Shape
 
 ## 3 Loading Data from File
 
@@ -131,6 +132,8 @@ xy = tf.decode_csv(value, record_defaults=record_defaults)
 ### Batch 
 
 * tf.train.batch
+  * Data length  
+  * batch_size
 
 ```
 # collect batches of csv in
@@ -150,5 +153,7 @@ threads = tf.train.start_queue_runners(sess=sess, coord=coord)
 coord.request_stop()
 coord.join(threads)
 ```
+
+* shuffle_batch 
 
 //
