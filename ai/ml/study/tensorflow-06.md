@@ -54,4 +54,11 @@ softmax_cross_entropy_with_logits
   - cost = tf.reduce_mean(cost_i)
 
 
+## tf.one_hot and reshape
+
+rank N ---> rank N+1
+
+## zip 
+
+
 //
